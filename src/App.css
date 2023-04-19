@@ -1,38 +1,155 @@
-.App {
-  text-align: center;
+/*body{
+    background-color: black;
+} 
+.weather{
+    border: 1px solid silver;
+    height:400px;
+    width:300px;
+    background:rgba(299, 299, 299, 0.4);
+    top: 30%;
+    left: 30%;
+    position: absolute;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.weather-icon{
+    top: 10%;
+    left: 35%;
+    height:80px ;
+    width:80px;
+    position: absolute;
+    padding: 1px;
 }
+.icon{
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+    margin:80px;
+}
+.temperature{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    font-size: 20px;
+    text-align: center;
+    justify-content: space-between;
+}
+.celsius{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px 0 20px 60px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+}
+.fahrenheit{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px 60px 20px 0px;
+
+}
+.location{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+.vertical {
+    border-left: 5px solid black;
+    height: 70px;
+   margin-top: 10px;
+    left: 50%;
+    margin-bottom: 20px;;
+}*/
+/*
+<div class="weather">
+<div
+        <div class="icon">
+            <img src="weather-icon.jpg" alt="weather" class="weather-icon" >
+            
+        </div>
+        <div class="temperature">
+        <div class="celsius"><strong>35 ° C</strong></div>
+        <div class="vertical"></div>
+        <div class="fahrenheit"><strong>98 F</strong></div>
+    </div>
+        <div class="location">Andhra Pradesh</div>
+    </div>
+    */
+    body{
+        background-color: black;
+    }
+    .address{
+      display: flex;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .weather{
+      height: 250px;
+      width: 400px;
+      border: 1px solid white;
+      background-image: url('./bg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      top: 20%;
+      left: 34%;
+      position: relative;
+      margin: 50px 0 10px 50px;
+      
   }
-  to {
-    transform: rotate(360deg);
+  .weather-1{
+      height: 250px;
+      width: 400px;
+      border: 1px solid white;
+      background-image: url('./bg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      top: 20%;
+      left: 10%;
+      position: relative;
+      margin: 20px;
+      
   }
-}
+  .weather-2{
+      height: 250px;
+      width: 400px;
+      border: 1px solid white;
+      background-image: url('bg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      top: 20%;
+      left: 30%;
+      position: relative;
+      margin: 20px;
+      margin-left: 30px;
+      
+  }
+  .other{
+      display: flex;
+  }
+  .right{
+      float: right;
+  }
+  .location-icon{
+      margin:25px 10px 0 10px ;
+  }
+  .place{
+      border: 1px solid black;
+      border-radius: 10%;
+      padding: 10px;
+  }
+  .date{
+      padding-left: 10px;
+      font-size: 20px;
+  }
+  .area{
+      padding-left: 10px;
+  }
+  .temperature{
+      font-size: 40px;
+      padding-left: 20px;
+  }
+  .humidity{
+      padding-right: 20px;
+  }
+  .sunny{
+      height: 50px;
+      width: 50px;
+      padding:10px 0px 0 200px;
+  }
